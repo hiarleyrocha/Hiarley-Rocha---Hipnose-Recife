@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Hiarley Rocha | Hipnoterapia Avançada Recife",
+  "description": "Landing page de hipnoterapia avançada e altamente inteligente para Hiarley Rocha, especialista em hipnoterapia clínica em Recife. Foco no tratamento de ansiedade, mente acelerada e bloqueios emocionais de forma moderna e científica.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

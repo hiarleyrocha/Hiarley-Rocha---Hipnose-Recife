@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700;850&family=JetBrains+Mono:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-petroleo-50: #f2f8f9;
+  --color-petroleo-100: #e1f0f2;
+  --color-petroleo-200: #c2e1e5;
+  --color-petroleo-300: #93cbda;
+  --color-petroleo-400: #5fa8bc;
+  --color-petroleo-500: #2c849c;
+  --color-petroleo-600: #1a657a;
+  --color-petroleo-700: #124d5e;
+  --color-petroleo-800: #0a3643;
+  --color-petroleo-900: #072630;
+  --color-petroleo-950: #03141a;
+  
+  --color-neutral-850: #1b1f24;
+  --color-neutral-900: #0f1216;
+  --color-neutral-950: #06080a;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-neutral-950);
+  color: #e5e7eb;
+}
+
+/* Custom premium glow effects */
+.radial-glow {
+  background: radial-gradient(circle at center, rgba(14, 77, 94, 0.15) 0%, rgba(6, 8, 10, 0) 70%);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #ffffff 30%, #a5f3fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.teal-gradient-border {
+  border-image: linear-gradient(to right, #124d5e, #1a657a, transparent) 1;
+}
+
+/* Custom premium scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #06080a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a657a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2c849c;
+}
